@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Personal website for an artificial intelligence PhD student: profile, publications, and research projects."
+  />
+  <title>Davide Ghia | PhD in Responsible AI, Workplace AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Back to the top">DG</a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#about">About me</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">PhD in Responsible AI, Workplace AI</p>
+        <h1 id="hero-title">Davide Ghia</h1>
+        <p class="hero-copy"></p>
+
+        <div class="hero-actions" aria-label="Main actions">
+          <a class="button primary" href="#publications">See Publications</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro-section" id="about" aria-labelledby="profile-title">
+      <div class="section-grid">
+        <div>
+          <p class="section-kicker">Personal Information</p>
+          <h2 id="profile-title">Research, Teaching, and Computational Curiosity.</h2>
+        </div>
+
+        <div class="profile-panel">
+          <p>
+            I am a PhD student at <strong>DAUIN, Politecnico di Torino</strong>,
+            where I work on artificial intelligence. My current research interests include 
+            responsible AI, AI in the workplace, and computational social science.
+          </p>
+
+          <dl class="info-list">
+            <div>
+              <dt>Affiliation</dt>
+              <dd>Politecnico di Torino</dd>
+            </div>
+            <div>
+              <dt>Research Area</dt>
+              <dd>Responsible AI, Explainable AI, Deep Learning</dd>
+            </div>
+            <div>
+              <dt>Supervisor</dt>
+              <dd>Daniele Quercia</dd>
+              <dd>Tania Cerquitelli</dd>
+            </div>
+            <div>
+              <dt>Location</dt>
+              <dd>Torino, Italy</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section publications-section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading">
+        <p class="section-kicker">My Research</p>
+        <h2 id="publications-title">Publications</h2>
+      </div>
+
+      <div class="publication-list">
+        <div class="publication-year-group" aria-labelledby="publications-2026">
+          <h3 class="publication-year-heading" id="publications-2026">2026</h3>
+
+          <div class="publication-year-list">
+            <article class="publication-card">
+              <h3>Assessing the Impact of Artificial Intelligence on Gender Disparities in the Labour Market</h3>
+              <p class="publication-meta">
+                Fernandez, M., Pavon Perez, A., <span style="font-weight: 700;">Ghia, D.</span>, Quercia, D., Cerquitelli, T - The Open University Report, 2026
+              </p>
+              <p>
+                Brief description of the contribution: proposed method, datasets
+                used, and main result.
+              </p>
+              <div class="link-row">
+                <a href="https://doi.org/10.21954/ou.ro.00109668" aria-label="Open the 2026 publication Link">Link</a>
+                <a href="https://oro.open.ac.uk/109668/9/CPWO%20V.3%20-%20Assessing%20the%20Impact%20of%20Artificial%20Intelligence%20on%20Gender%20Disparities%20in%20the%20Labour%20Market-combined.pdf" aria-label="Open the 2026 publication PDF">PDF</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="publication-year-group" aria-labelledby="publications-2025">
+          <h3 class="publication-year-heading" id="publications-2025">2025</h3>
+
+          <div class="publication-year-list">
+            <article class="publication-card">
+              <h3>A Concept-based approach to Voice Disorder Detection</h3>
+              <p class="publication-meta">
+                <span style="font-weight: 700;">Ghia, D.</span>, Ciravegna, G., Koudounas, A., Fantini, M., Crosetti, E., Succo, G., Cerquitelli, T. - ECML PKDD 2025 Workshop & Tutorial Track 
+              </p>
+              <p>
+                Study of techniques to improve stability, generalization, and
+                transparency in scenarios with incomplete data.
+              </p>
+              <div class="link-row">
+                <a href="https://link.springer.com/chapter/10.1007/978-3-032-19105-2_40" aria-label="Open the 2025 publication Link">Link</a>
+                <a href="https://arxiv.org/pdf/2507.17799" aria-label="Open the 2025 publication PDF">PDF</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <p class="section-kicker">Ongoing Projects</p>
+        <h2 id="projects-title">Active Research</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <p class="project-status">In Development</p>
+          <h3>Explainable AI for clinical decisions</h3>
+          <p>
+            Prototype for visualizing feature importance and supporting expert
+            review of predictive models.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <p class="project-status">Dataset</p>
+          <h3>Benchmark for robustness and fairness</h3>
+          <p>
+            Collection of reproducible experiments for measuring performance,
+            bias, and stability across different domains.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <p class="project-status">Collaboration</p>
+          <h3>Intelligent agents for scientific research</h3>
+          <p>
+            Study of agentic workflows that support reading, synthesizing, and
+            validating scientific literature.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-content">
+        <p class="section-kicker">Contact</p>
+        <h2 id="contact-title">For collaborations, seminars, or research questions.</h2>
+        <div class="contact-links">
+          <a href="mailto:davide.ghia@polito.it">davide.ghia@polito.it</a>
+          <a href="https://scholar.google.com/citations?user=Q0hS_q0AAAAJ&hl=it&authuser=1">Google Scholar</a>
+          <!-- <a href="#">GitHub</a> -->
+          <a href="https://www.linkedin.com/in/davideghia/">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="current-year"></span> Davide Ghia. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
