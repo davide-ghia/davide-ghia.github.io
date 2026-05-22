@@ -232,6 +232,7 @@ a {
 .profile-photo {
   display: block;
   width: 100%;
+  max-width: 340px;
   aspect-ratio: 4 / 5;
   border-radius: 8px;
   object-fit: cover;
@@ -464,6 +465,10 @@ a {
 
   .profile-photo-wrap {
     width: min(100%, 420px);
+  }
+
+  .profile-photo {
+    max-width: 420px;
   }
 
   .publication-year-group {
