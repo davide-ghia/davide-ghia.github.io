@@ -226,13 +226,15 @@ a {
 }
 
 .profile-photo-wrap {
-  width: min(100%, 340px);
+  width: 340px;
+  max-width: 100%;
+  flex-shrink: 0;
 }
 
 .profile-photo {
   display: block;
-  width: 100%;
-  max-width: 340px;
+  width: 340px;
+  max-width: 100%;
   aspect-ratio: 4 / 5;
   border-radius: 8px;
   object-fit: cover;
